@@ -248,7 +248,7 @@ textarea {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   abbr[title]::after {
     content: " (" attr(title) ")";
@@ -382,13 +382,12 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #014c8c;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 a:focus {

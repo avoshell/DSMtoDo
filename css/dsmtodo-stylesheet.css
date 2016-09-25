@@ -1,14 +1,59 @@
 /** Style Guide **/
-/** **/
-/** **/
-/** **/
-/** **/
+/** Fonts:
+    Headings: font-family: 'Bungee', cursive;
+    Text: font-family: 'Scope One', serif;
+ **/
+/** Red: #E83C3C **/
+/** Blue: #C3FFD4 **/
+/** Dark Gray: #4D4D4D**/
+/** White: #FFF **/
 
-.main-header {
-    text-align: center;
+body {
+    background-color: #4d4d4d;
+    padding: 0;
+    margin: auto;
 }
 
-.btn-primary {
-    background-color: lightgrey;
-    border: none;
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #C3FFD4;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main-header,
+    .btn {
+        text-align: center;
+    }
+
+    .btn-primary,
+    .btn-block,
+    li {
+        margin: auto;
+    }
+
+    .btn-primary {
+        background-color: #E83C3C;
+        border: none;
+        color: #fff;
+    }
+
+    .btn:focus {
+        text-decoration: none;
+        background-color: #C3FFD4;
+    }
+
+    .btn-block {
+        max-width: 80%;
+    }
+
+    li {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
 }
