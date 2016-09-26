@@ -14,46 +14,60 @@ body {
     margin: auto;
 }
 
-li {
-    list-style: none;
+button {
+    font-family: 'Scope One', serif;
 }
 
 h1 {
     color: #C3FFD4;
+    font-family: 'Bungee', cursive;
+    margin: auto;
+    padding-top: 35px;
+    padding-bottom: 50px;
 }
 
 
 
 @media screen and (max-width: 768px) {
-    .main-header,
-    .btn {
+    button,
+    .main-header {
         text-align: center;
     }
 
-    .btn-primary,
-    .btn-block,
-    li {
+    button{
         margin: auto;
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
 
-    .btn-primary {
+    .btn {
         background-color: #E83C3C;
         border: none;
         color: #fff;
     }
 
-    .btn:focus {
+    .btn:hover {
         text-decoration: none;
         background-color: #C3FFD4;
+        color: #fff;
     }
 
     .btn-block {
         max-width: 80%;
     }
 
-    li {
-        padding-top: 7px;
-        padding-bottom: 7px;
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px;
     }
 
+    a:hover {
+        color: #4d4d4d;
+    }
+
+    .map {
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
 }
