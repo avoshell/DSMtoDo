@@ -18,19 +18,22 @@ button {
     font-family: 'Scope One', serif;
 }
 
-h1 {
+h1, h2 {
     color: #C3FFD4;
     font-family: 'Bungee', cursive;
     margin: auto;
     padding-top: 35px;
     padding-bottom: 50px;
+    font-size: 1.5em;
 }
 
 
 
 @media screen and (max-width: 768px) {
     button,
-    .main-header {
+    .main-header,
+    h1,
+    h2 {
         text-align: center;
     }
 
