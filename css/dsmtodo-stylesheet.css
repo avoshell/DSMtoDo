@@ -18,7 +18,7 @@ button {
     font-family: 'Scope One', serif;
 }
 
-h1, h2 {
+h1, h2, .main-header {
     color: #C3FFD4;
     font-family: 'Bungee', cursive;
     margin: auto;
@@ -45,6 +45,9 @@ h1, h2 {
         background-color: #E83C3C;
         border: none;
         color: #fff;
+        height: 70px;
+        font-size: 1.3em;
+
     }
 
     .btn:hover {
@@ -57,7 +60,7 @@ h1, h2 {
         max-width: 80%;
     }
 
-    a {
+    .btn-text {
         text-decoration: none;
         color: #fff;
         padding: 15px;
@@ -65,10 +68,19 @@ h1, h2 {
 
     a:hover {
         color: #4d4d4d;
+        text-decoration: none;
     }
 
     .map {
         margin-top: 50px;
         margin-bottom: 35px;
+    }
+
+    .home-link {
+        color: #C3FFD4;
+    }
+
+    .home-link:hover {
+        color: white;
     }
 }
