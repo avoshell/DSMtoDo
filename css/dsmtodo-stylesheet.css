@@ -19,21 +19,61 @@ button {
 }
 
 h1, h2, .main-header {
-    color: #C3FFD4;
     font-family: 'Bungee', cursive;
     margin: auto;
     padding-top: 35px;
-    padding-bottom: 50px;
+}
+
+h1 {
+    color: #C3FFD4;
+}
+
+h2 {
+    color: white;
+}
+
+.home-link {
+    color: #C3FFD4;
+}
+
+.home-link:hover {
+    color: white;
 }
 
 
-
 @media screen and (max-width: 768px) {
+    /***** HEADER STYLING *****/
     button,
     .main-header,
     h2 {
         text-align: center;
     }
+
+    .main-header,
+    .home-link {
+        padding-bottom: 40px;
+    }
+
+    .main-header {
+        font-size: 3.5em;
+    }
+
+    .home-link {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        padding-bottom: 25px;
+    }
+
+    /***** LINK & FUNCTION STYLING *****/
+
+    a:hover {
+        color: #4d4d4d;
+        text-decoration: none;
+    }
+
+    /***** BUTTON STYLING *****/
 
     button{
         margin: auto;
@@ -41,17 +81,24 @@ h1, h2, .main-header {
         padding-bottom: 7px;
     }
 
+    .btn-text,
+    .btn:hover {
+        text-decoration: none;
+    }
+
+    .nav-menu .btn {
+        height: 70px;
+    }
+
     .btn {
         background-color: #E83C3C;
         border: none;
         color: #fff;
-        height: 70px;
+        height: 50px;
         font-size: 1.3em;
-
     }
 
     .btn:hover {
-        text-decoration: none;
         background-color: #C3FFD4;
         color: #fff;
     }
@@ -61,14 +108,8 @@ h1, h2, .main-header {
     }
 
     .btn-text {
-        text-decoration: none;
         color: #fff;
         padding: 15px;
-    }
-
-    a:hover {
-        color: #4d4d4d;
-        text-decoration: none;
     }
 
     .map {
@@ -76,11 +117,8 @@ h1, h2, .main-header {
         margin-bottom: 35px;
     }
 
-    .home-link {
-        color: #C3FFD4;
-    }
+    /***** PLACE PAGE STYLING *****/
 
-    .home-link:hover {
-        color: white;
-    }
+
+
 }
