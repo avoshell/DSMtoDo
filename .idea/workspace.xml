@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6eeddaa-de5f-4924-85e9-64a4c1e5fb72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dsmtodo-stylesheet.css" afterPath="$PROJECT_DIR$/css/dsmtodo-stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Food Places/Eatery-A.html" afterPath="$PROJECT_DIR$/html/Food Places/Eatery-A.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/active.html" afterPath="$PROJECT_DIR$/html/active.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/chill.html" afterPath="$PROJECT_DIR$/html/chill.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/drink.html" afterPath="$PROJECT_DIR$/html/drink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/food.html" afterPath="$PROJECT_DIR$/html/food.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-    </list>
+    <list default="true" id="d6eeddaa-de5f-4924-85e9-64a4c1e5fb72" name="Default" comment="" />
     <ignored path="DSMtoDo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -399,12 +390,12 @@
       <workItem from="1474836714420" duration="5737000" />
       <workItem from="1475014164858" duration="1712000" />
       <workItem from="1475115799373" duration="1699000" />
-      <workItem from="1475184132313" duration="1868000" />
+      <workItem from="1475184132313" duration="2068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28256000" />
+    <option name="totallyTimeSpent" value="28456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
