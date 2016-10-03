@@ -51,7 +51,7 @@ h2 {
 
     .main-header,
     .home-link {
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .main-header {
@@ -109,12 +109,17 @@ h2 {
 
     .btn-text {
         color: #fff;
-        padding: 15px;
+        padding: 20px;
     }
 
     .map {
         margin-top: 50px;
         margin-bottom: 35px;
+    }
+
+    .menu-btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     /***** PLACE PAGE STYLING *****/
