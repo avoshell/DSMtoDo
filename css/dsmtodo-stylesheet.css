@@ -14,7 +14,9 @@ body {
     margin: auto;
 }
 
-button {
+button,
+h3,
+p {
     font-family: 'Scope One', serif;
 }
 
@@ -63,7 +65,7 @@ h2 {
     }
 
     h2 {
-        padding-bottom: 25px;
+        padding-bottom: 20px;
     }
 
     /***** LINK & FUNCTION STYLING *****/
@@ -124,6 +126,31 @@ h2 {
 
     /***** PLACE PAGE STYLING *****/
 
+    .place-details {
+        background-color: #E83C3C;
+        margin: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 5%;
+    }
 
+    h3 {
+        color: #4d4d4d;
+        font-size: 1.4em;
+    }
+
+    h3, p {
+        padding-left: 30px;
+    }
+
+    p {
+        color: white;
+    }
+
+    .place-website {
+        text-decoration: none;
+        color: white;
+        padding: 20px 20px 20px 0;
+    }
 
 }
