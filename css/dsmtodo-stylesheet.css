@@ -8,43 +8,30 @@
 /** Dark Gray: #4D4D4D**/
 /** White: #FFF **/
 
-body {
-    background-color: #4d4d4d;
-    padding: 0;
-    margin: auto;
-}
+    body {
+        background-color: #4d4d4d;
+        padding: 0;
+    }
 
-button,
-h3,
-p {
-    font-family: 'Scope One', serif;
-}
+    body, h1, h2, button, .main-header {
+        margin: auto;
+    }
 
-h1, h2, .main-header {
-    font-family: 'Bungee', cursive;
-    margin: auto;
-    padding-top: 35px;
-}
+    h1, h2, .main-header {
+        font-family: 'Bungee', cursive;
+        padding-top: 35px;
+    }
 
-h1 {
-    color: #C3FFD4;
-}
+    button, h3, p {
+        font-family: 'Scope One', serif;
+    }
 
-h2 {
-    color: white;
-}
-
-.home-link {
-    color: #C3FFD4;
-}
-
-.home-link:hover {
-    color: white;
-}
+    h2, p, .place-website, .home-link:hover, .btn, .btn-text {
+        color: white;
+    }
 
 
-@media screen and (max-width: 768px) {
-    /***** HEADER STYLING *****/
+/***** HEADER STYLING *****/
     button,
     .main-header,
     h2 {
@@ -60,20 +47,64 @@ h2 {
         font-size: 3.5em;
     }
 
-    .home-link {
-        font-size: 1.5em;
+    h1 {
+        color: #C3FFD4;
     }
 
     h2 {
         padding-bottom: 20px;
     }
 
-    /***** LINK & FUNCTION STYLING *****/
+/***** LINK & FUNCTION STYLING *****/
+
+    .home-link {
+        color: #C3FFD4;
+        font-size: 1.5em;
+    }
+
+
+    a:hover, .place-website, .btn-text, .btn:hover {
+        text-decoration: none;
+    }
 
     a:hover {
         color: #4d4d4d;
-        text-decoration: none;
     }
+
+    h3 {
+        color: #4d4d4d;
+        font-size: 1.4em;
+    }
+
+    h3, p {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .place-website {
+        padding: 20px 20px 20px 0;
+    }
+
+/***** BUTTON STYLING *****/
+
+    .btn {
+        background-color: #E83C3C;
+        border: none;
+    }
+
+    .btn-text {
+        padding: 20px;
+    }
+
+    .back-btn {
+        position: absolute;
+        margin-top: 30px;
+        padding: 0 10px 10px 30px;
+    }
+
+
+@media screen and (max-width: 768px) {
+
 
     /***** BUTTON STYLING *****/
 
@@ -83,35 +114,17 @@ h2 {
         padding-bottom: 7px;
     }
 
-    .btn-text,
-    .btn:hover {
-        text-decoration: none;
-    }
-
     .nav-menu .btn {
         height: 70px;
     }
 
     .btn {
-        background-color: #E83C3C;
-        border: none;
-        color: #fff;
         height: 50px;
         font-size: 1.3em;
     }
 
-    .btn:hover {
-        background-color: #C3FFD4;
-        color: #fff;
-    }
-
     .btn-block {
         max-width: 80%;
-    }
-
-    .btn-text {
-        color: #fff;
-        padding: 20px;
     }
 
     .map {
@@ -134,29 +147,6 @@ h2 {
         border-radius: 5%;
     }
 
-    h3 {
-        color: #4d4d4d;
-        font-size: 1.4em;
-    }
-
-    h3, p {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    p {
-        color: white;
-    }
-
-    .place-website {
-        text-decoration: none;
-        color: white;
-        padding: 20px 20px 20px 0;
-    }
-
-    .back-btn {
-        position: absolute;
-        margin-top: 30px;
-        padding: 0px 10px 10px 30px;
-    }
 }
+
+@media screen and (min-width: 768px)
