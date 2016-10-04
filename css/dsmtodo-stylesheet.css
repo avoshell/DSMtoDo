@@ -26,7 +26,7 @@
         font-family: 'Scope One', serif;
     }
 
-    h2, p, .place-website, .home-link:hover, .btn, .btn-text {
+    h2, p, .place-website, .home-link:hover, .btn-text {
         color: white;
     }
 
@@ -87,6 +87,7 @@
 
 /***** BUTTON STYLING *****/
 
+
     .btn {
         background-color: #E83C3C;
         border: none;
@@ -102,13 +103,19 @@
         padding: 0 10px 10px 30px;
     }
 
+    .btn-primary:hover {
+        background-color: #C3FFD4;
+    }
+
+
+/**************** MOBILE STYLING ***************/
 
 @media screen and (max-width: 768px) {
 
 
     /***** BUTTON STYLING *****/
 
-    button{
+    button {
         margin: auto;
         padding-top: 7px;
         padding-bottom: 7px;
@@ -132,10 +139,6 @@
         margin-bottom: 35px;
     }
 
-    .menu-btn {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
 
     /***** PLACE PAGE STYLING *****/
 
@@ -149,4 +152,71 @@
 
 }
 
-@media screen and (min-width: 768px)
+
+/**************** TABLET STYLING ***************/
+
+
+@media screen and (min-width: 768px) {
+
+    .btn-block {
+        width: 55%;
+        height: 80px;
+    }
+
+    button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        font-size: 1.7em;
+    }
+
+    .place-details {
+        width: 50%;
+        margin: auto;
+    }
+
+    .place-details h3 {
+        color: #E83C3C;
+        font-size: 1.5em;
+    }
+
+    .place h2 {
+        padding-bottom: 35px;
+    }
+
+    .place-details p {
+        font-size: 1.1em;
+    }
+
+
+}
+
+/**************** DESKTOP STYLING ***************/
+
+@media screen and (min-width: 1020px) {
+
+    .btn-block {
+        width: 45%;
+    }
+
+    .place-details {
+        width: 40%;
+        margin: auto;
+    }
+
+    .place h2 {
+        padding-bottom: 55px;
+    }
+
+    .place-details h3 {
+        font-size: 1.6em;
+    }
+
+    .place-details p {
+        font-size: 1.2em;
+    }
+
+
+}
