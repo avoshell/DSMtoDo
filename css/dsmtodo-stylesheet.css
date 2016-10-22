@@ -17,7 +17,7 @@
         margin: auto;
     }
 
-    h1, h2, .main-header {
+    h1, h2, .main-header, .map-text {
         font-family: 'Bungee', cursive;
         padding-top: 35px;
     }
@@ -103,9 +103,32 @@
         padding: 0 10px 10px 30px;
     }
 
-    .btn-primary:hover {
+    .btn-primary:hover,
+    .menu-btn:hover {
         background-color: #C3FFD4;
     }
+
+    .map-btn {
+        margin-top: 65px;
+        margin-bottom: 50px;
+    }
+
+/***** MAP STYLING *****/
+
+    .map {
+        display: flex;
+        align-content: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .food-map,
+    .chill-map,
+    .active-map,
+    .drink-map {
+        margin: auto;
+    }
+
 
 
 /**************** MOBILE STYLING ***************/
@@ -134,7 +157,7 @@
         max-width: 80%;
     }
 
-    .map {
+    .map-btn {
         margin-top: 50px;
         margin-bottom: 35px;
     }
@@ -148,6 +171,14 @@
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 5%;
+    }
+
+
+    /***** MAP STYLING *****/
+
+    .map {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
