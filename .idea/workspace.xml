@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6eeddaa-de5f-4924-85e9-64a4c1e5fb72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/active-map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/chill-map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/drink-map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/food-map.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/map.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dsmtodo-stylesheet.css" afterPath="$PROJECT_DIR$/css/dsmtodo-stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/Food Places/Eatery-A.html" afterPath="$PROJECT_DIR$/html/Food Places/Eatery-A.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/active.html" afterPath="$PROJECT_DIR$/html/active.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/chill.html" afterPath="$PROJECT_DIR$/html/chill.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/drink.html" afterPath="$PROJECT_DIR$/html/drink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/food.html" afterPath="$PROJECT_DIR$/html/food.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
     </list>
     <ignored path="DSMtoDo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,21 +36,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dsmtodo-stylesheet.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/dsmtodo-stylesheet.css">
+      <file leaf-file-name="active.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/active.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
+            <state relative-caret-position="525">
+              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="food-map.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dsmtodo-stylesheet.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/dsmtodo-stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Confluence.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/Drink Places/Confluence.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food-map.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/food-map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -139,7 +148,6 @@
         <option value="$PROJECT_DIR$/html/Food Places/Sakura.html" />
         <option value="$PROJECT_DIR$/html/Drink Places/515-Brewery.html" />
         <option value="$PROJECT_DIR$/html/Drink Places/Centro.html" />
-        <option value="$PROJECT_DIR$/html/Drink Places/Confluence.html" />
         <option value="$PROJECT_DIR$/html/Drink Places/El-Bait-Shop.html" />
         <option value="$PROJECT_DIR$/html/Drink Places/Exile-Drinks.html" />
         <option value="$PROJECT_DIR$/html/Drink Places/Malo-Drinks.html" />
@@ -165,6 +173,7 @@
         <option value="$PROJECT_DIR$/html/chill-map.html" />
         <option value="$PROJECT_DIR$/html/drink-map.html" />
         <option value="$PROJECT_DIR$/html/active-map.html" />
+        <option value="$PROJECT_DIR$/html/Drink Places/Confluence.html" />
         <option value="$PROJECT_DIR$/css/dsmtodo-stylesheet.css" />
       </list>
     </option>
@@ -251,6 +260,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSMtoDo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSMtoDo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Drink Places" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -395,12 +422,12 @@
       <workItem from="1475505429696" duration="11634000" />
       <workItem from="1475619788355" duration="538000" />
       <workItem from="1476152744484" duration="116000" />
-      <workItem from="1477151206813" duration="4752000" />
+      <workItem from="1477151206813" duration="5772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45496000" />
+    <option name="totallyTimeSpent" value="46516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Drink Places/Confluence.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Drink Places/Centro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -682,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/Food Places/Eatery-A.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -722,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/active.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/chill.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -750,14 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="34" column="103" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/food-map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -786,10 +782,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Drink Places/Confluence.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/dsmtodo-stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/food-map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>

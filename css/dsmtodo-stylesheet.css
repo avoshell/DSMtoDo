@@ -108,6 +108,11 @@
         background-color: #C3FFD4;
     }
 
+    .place-website:hover,
+    .place-website:active {
+        color: #C3FFD4;
+    }
+
     .map-btn {
         margin-top: 65px;
         margin-bottom: 50px;
